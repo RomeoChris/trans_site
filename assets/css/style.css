@@ -553,7 +553,7 @@ ul {
 .btn {
   height: auto;
   line-height: 58px;
-  padding: 5px 0px;
+  padding: 5px 15px;
   border-radius: 0;
   overflow: hidden;
   position: relative;
