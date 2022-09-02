@@ -580,7 +580,7 @@ ul {
 }
 
 .btn:hover {
-  background: #4285F4;
+  background: var(--main-color);
 }
 
 .btn:hover:after {
@@ -611,6 +611,29 @@ ul {
   color: #fff;
   background: var(--main-color);
   line-height: 35px;
+}
+
+.btn-base2a{
+  color: #FFF;
+  background: var(--main-color);
+  line-height: 35px;
+  padding: 10px;
+  border: solid 2px;
+  border-color: var(--main-color);
+}
+
+.btn-base2b{
+  color: var(--main-color);
+  background: #FFF;
+  line-height: 35px;
+  border: solid 2px;
+  border-color: var(--main-color);
+  padding: 10px;
+}
+
+.btn-base2a:hover,
+.btn-base2b:hover{
+  color: var(--main-color);
 }
 
 .btn-base-icon {
@@ -733,7 +756,8 @@ ul {
 }
 
 .empty-tcard{
-  height: 240px;
+  height: auto;
+  margin: 5px;
 }
 
 .add-to-cart-btn:hover,
@@ -4366,6 +4390,10 @@ ul {
 
 .progress-item {
   margin-bottom: 28px;
+}
+
+.progress-container{
+  margin: 20px 0px 20px 0px;
 }
 
 .progress-item .progress-count-wrap {
