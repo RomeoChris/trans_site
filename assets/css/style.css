@@ -1654,8 +1654,8 @@ ul {
 }
 
 .navbar-top ul {
-  margin: 0;
-  padding: 0;
+  margin: -1px;
+  padding: 0px;
   list-style: none;
 }
 
@@ -1892,7 +1892,7 @@ ul {
 
 .navbar-area-1 {
   padding: 0;
-  top: 60px;
+  top: 58px;
 }
 
 .navbar-area-1 .nav-container {
