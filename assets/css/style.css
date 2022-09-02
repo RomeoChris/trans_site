@@ -720,6 +720,22 @@ ul {
   color: #fff;
 }
 
+#track {
+  padding: 10px 20px;
+  width: 100%;
+  border-color: #FB493D;
+  border-style: solid;
+  margin: -10px 0 20px;
+}
+
+.rounded-track{
+  border-radius: 10px;
+}
+
+.empty-tcard{
+  height: 240px;
+}
+
 .add-to-cart-btn:hover,
 .add-to-cart-btn.active,
 .add-to-cart-btn:focus {
