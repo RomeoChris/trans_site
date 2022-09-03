@@ -1411,11 +1411,12 @@ ul {
 }
 
 .package-card1 {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .package-card2 {
   padding-bottom: 30px;
+  padding-top: 0px;
 }
 
 .pd-bottom-120b {
@@ -4428,7 +4429,7 @@ ul {
 }
 
 .progress-container{
-  margin: 20px 0px 20px 0px;
+  margin: 30px 0px 30px 0px;
 }
 
 .progress-item .progress-count-wrap {
@@ -5905,6 +5906,10 @@ ul {
   margin: 0 0 1px 0;
 }
 
+.package-card2-meta{
+  margin: 0 0 1px 10px !important;
+}
+
 .single-blog-inner .thumb {
   position: relative;
   overflow: hidden;
@@ -6019,7 +6024,10 @@ ul {
 }
 
 hr{
-  margin: 20px 0px 20px 0px;
+  margin: 0px 0px 0px 0px;
+  background-color: black;
+  opacity: 1;
+  height: 2px !important;
 }
 
 /************ page navigation ************/
