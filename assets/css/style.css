@@ -3515,6 +3515,11 @@ ul {
   top: 17px;
 }
 
+.about-exp-wrap{
+  right: 100px !important;
+  top: 280px !important;
+}
+
 .about-thumb-wrap .exprience-wrap img {
   margin-bottom: -15px;
 }
@@ -4515,6 +4520,10 @@ ul {
 
 .video-area .cta-inner-wrap {
   position: relative;
+}
+
+.video-row-area{
+  margin-top: 100px;
 }
 
 .video-area .cta-inner-wrap .section-title .subtitle.style-2 {
