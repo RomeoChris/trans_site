@@ -853,6 +853,12 @@
 		font-size: 52px;
 		line-height: initial;
 	}
+
+	.faq-wrap{
+		margin-top: 30px;
+		margin-left: 50px;
+		width: 80%;
+	  }
 }
 
 @media all and (max-width: 425px) {
@@ -916,6 +922,12 @@
 	.breadcrumb-area .page-title {
 		font-size: 48px;
 	}
+
+	.faq-wrap{
+		margin-top: -70px;
+		margin-left: 0px;
+		width: 100%;
+	  }
 }
 
 @media all and (max-width: 375px) {
