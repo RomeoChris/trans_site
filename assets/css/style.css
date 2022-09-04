@@ -6388,6 +6388,11 @@ blockquote .icon {
   margin-bottom: 120px;
 }
 
+.contact-footer-top{
+  margin-bottom: 0px !important;
+  border-bottom: 1px solid transparent !important;
+}
+
 .footer-area .footer-top .single-footer-top {
   display: -webkit-box;
   display: -ms-flexbox;
