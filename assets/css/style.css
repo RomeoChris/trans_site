@@ -6745,18 +6745,6 @@ blockquote .icon {
 	transition: transform .2s ease-out;
 }
 
-.switcher-login .underline::before {
-	transform: translateX(101%);
-}
-
-.switcher-signup .underline::before {
-	transform: translateX(-101%);
-}
-
-.form-wrapper.is-active .underline::before {
-	transform: translateX(0);
-}
-
 .form {
 	overflow: hidden;
 	min-width: 260px;
@@ -6767,7 +6755,7 @@ blockquote .icon {
 }
 
 .form-login {
-	animation: hideLogin .3s ease-out forwards;
+	animation: showLogin .3s ease-out forwards;
 }
 
 .form-wrapper.is-active .form-login {
@@ -6788,22 +6776,8 @@ blockquote .icon {
 	}
 }
 
-@keyframes hideLogin {
-	0% {
-		background-color: #fff;
-		transform: translate(35%, -20px);
-	}
-	50% {
-		transform: translate(0, 0);
-	}
-	100% {
-		background: #d7e7f1;
-		transform: translate(40%, 10px);
-	}
-}
-
 .form-signup {
-	animation: hideSignup .3s ease-out forwards;
+	animation: ShowSignup .3s ease-out forwards;
 }
 
 .form-wrapper.is-active .form-signup {
@@ -6821,20 +6795,6 @@ blockquote .icon {
 	100% {
 		background-color: #fff;
 		transform: translate(-35%, -20px) scaleY(1);
-	}
-}
-
-@keyframes hideSignup {
-	0% {
-		background-color: #fff;
-		transform: translate(-35%, -20px) scaleY(1);
-	}
-	50% {
-		transform: translate(0, 0) scaleY(.8);
-	}
-	100% {
-		background: #d7e7f1;
-		transform: translate(-40%, 10px) scaleY(.8);
 	}
 }
 
